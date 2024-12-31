@@ -4,9 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  assetPrefix: '/',
   basePath: '',
-  assetPrefix: './',
-  trailingSlash: true,
 };
 
 export default nextConfig;

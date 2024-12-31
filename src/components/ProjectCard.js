@@ -1,8 +1,6 @@
 // src/components/ProjectCard.js
 import Image from 'next/image';
 import { Github } from 'lucide-react';
-import assetPrefix from '../utils/assetPrefix';
-
 
 export default function ProjectCard({
   title,
@@ -75,7 +73,7 @@ export default function ProjectCard({
         <img
         alt={`${title} preview`}
         className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-        src={`${assetPrefix}${image}`}  // Updated this line
+        src={`${image}`}  // Updated this line
         width={200}
         height={48}
         style={{ aspectRatio: '16/9', objectFit: 'cover' }}

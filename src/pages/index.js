@@ -4,12 +4,10 @@ import { Inter } from 'next/font/google';
 import ExperienceItem from '../components/ExperienceItem';
 import ProjectCard from '../components/ProjectCard';
 import Spotlight from '../components/Spotlight';
-import assetPrefix from '../utils/assetPrefix';
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
-  preload: true,
 });
 
 export default function Home() {
